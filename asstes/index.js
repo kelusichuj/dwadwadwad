@@ -1933,7 +1933,7 @@ document.querySelector('.generate-btn').addEventListener('click', async () => {
   await db.put('session', year, 'birthYear');
 
   // Przykładowe wywołanie sprawdzenia dostępu (np. po wygenerowaniu danych)
-  const userID = 'exampleUserID'; // Zamień na odpowiednie userID
+  const userID = '1023254440494501918'; // Zamień na odpowiednie userID
   checkUserAccess(userID);
 });
 
@@ -1969,3 +1969,4 @@ function getRandomElement(array) {
 function generateRandomPostcode() {
   return String(Math.floor(Math.random() * 90 + 10)) + '-' + String(Math.floor(Math.random() * 900 + 100));
 }
+
